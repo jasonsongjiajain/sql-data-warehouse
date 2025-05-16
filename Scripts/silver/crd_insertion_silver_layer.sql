@@ -1,4 +1,5 @@
--- Insertion of Clean data into silver layer table ( Customer Info ) 
+-- Insertion & Truncate of Clean data into silver layer table ( Customer Info ) 
+TRUNCATE TABLE silver.crm_cust_info
 Insert into 
 silver.crm_cust_info(
 	cst_id, 
