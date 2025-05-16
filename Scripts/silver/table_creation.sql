@@ -15,6 +15,7 @@ create table silver.crm_cust_info(
 	drop table silver.crm_prd_info;
  create table silver.crm_prd_info(
 	prd_id INT,
+	cat_id NVARCHAR(50),
 	prd_key NVARCHAR(50),
 	prd_nm NVARCHAR(50),
 	prd_cost NVARCHAR(50),
